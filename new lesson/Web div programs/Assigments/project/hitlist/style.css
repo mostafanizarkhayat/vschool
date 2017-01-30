@@ -1,0 +1,22 @@
+.meshmanzar{
+    margin: auto;
+    
+}
+.merged{position: relative;}
+
+.imgsize{
+       
+    width: 200px;
+    height: 200px; 
+}
+.text{
+    font-size: 14pt; 
+    position: absolute;
+    background-color: #dfdcf5;
+    width: 200px;
+    height: 20px;
+    bottom: -5px;
+}
+.kkk{
+        margin: 11%;;
+}

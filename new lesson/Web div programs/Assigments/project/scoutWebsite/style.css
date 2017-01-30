@@ -1,0 +1,73 @@
+.AboutScout {
+    text-align: justify;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: lawngreen;
+    font-family: arial;
+    font-size: 13pt;
+}
+
+.navbar navbar-default {
+
+    width: 40%;
+    margin-left: 40%;
+    
+
+}
+
+.paden {
+    margin-left: 25%;
+    margin-right: 25%;
+    
+    
+}
+
+.tent1 {
+    
+/*
+margin-right: 15px;
+position: relative;
+    right: 44px;
+*/
+    width: 100px;
+    height: 75px;    
+}
+
+#list {
+    margin-right: 50%;
+    margin-left: 20px;
+}
+
+.media-body {
+    position: relative;
+    left: 200px;
+}
+/*
+.row {
+    margin-right: 188px;
+    margin-left: -15px;
+}*/
+
+ body {
+      position: relative;
+  }
+  ul.nav-pills {
+      top: 20px;
+      position: fixed;
+  }
+  div.col-sm-9 div {
+      height: 250px;
+      font-size: 28px;
+  }
+  #section1 {color: #fff; background-color: #1E88E5;}
+  #section2 {color: #fff; background-color: #673ab7;}
+  #section3 {color: #fff; background-color: #ff9800;}
+  #section41 {color: #fff; background-color: #00bcd4;}
+  #section42 {color: #fff; background-color: #009688;}
+  
+  @media screen and (max-width: 810px) {
+    #section1, #section2, #section3, #section41, #section42  {
+        margin-left: 150px;
+    }
+  }
+.nav nav-pills nav-stacked

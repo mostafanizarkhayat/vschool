@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: url("images%20(1).jpg");background-size: cover;
+    text-align: center;
+    
+}
+h1 {
+    font-size: 82px;
+    text-align: center;
+    color: white;
+    font-style: bold;
+}
+img {
+    height: 10em;
+    width: 10em;
+}
+
+td, th {
+    padding: 130px;
+    border-left: 0px;
+    border-right: 0px;
+    text-align: center;
+}
+tr:nth-child(odd) {
+    color: white;
+}
+table {
+    height: 5em;
+    width: 5em;
+    text-align: center;
+    table-layout: auto;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-style: bold;
+}
+button {
+    padding : 10px;
+}
+footer {
+    color: white;
+    font-size: 28px;
+}

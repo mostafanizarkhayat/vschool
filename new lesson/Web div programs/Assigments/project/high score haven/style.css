@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    
+   background: url("download.jpg");background-size: cover;
+    
+    background-color: #2359a9;
+}
+p{
+    font-family: warbird;
+    font-size: 50px;
+    margin-right: 26%;
+    margin-left: 29%;    
+}
+.row{
+   padding: 7px;
+    
+}
+
+body {
+    color:darkred;
+    font-weight: bold;
+    font-size: 11pt;
+}
+}
+
+#Submit{
+    color: black;
+}
+h1{
+    font-family: warbird;
+    font-size: 50px;
+    margin-right: 26%;
+    margin-left: 29%;
+}
+.container{
+   border: 1px solid white;
+    padding: 26pt;
+    margin: 19px;
+    margin-left: 19%;
+    width: 64%;
+}
+.col-md-6{
+    width:34%;
+}
+
+.mrg{
+    margin: auto;
+    
+}

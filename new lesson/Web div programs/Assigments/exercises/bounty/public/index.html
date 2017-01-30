@@ -1,0 +1,58 @@
+<html ng-app="myBounty">
+
+<head>
+    <title>Bounty</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css"> </head>
+
+<body id="main" ng-controller="MainController">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 clr hgt">
+                <h1 class="text-center txt"> Bounty </h1> </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8 hgt2 clr col-sm-offset-2 ">
+                <div class="row">
+                    <form name="myForm">
+                        <div class="col-sm-6 form-group">
+                            <input type="text" class="form-control" placeholder="First Name" ng-model="person.fname" ng-blur="blur()" required> </div>
+                        <div class="col-sm-6 form-group">
+                            <input type="text" class="form-control" placeholder="Last Name" ng-model="person.lname" ng-minlength="3" required> </div>
+                        <div class="col-sm-6 form-group">
+                            <input type="text" class="form-control" placeholder="email" ng-model="person.email"> </div>
+                        <div class="col-sm-6 form-group">
+                            <input type="text" class="form-control" placeholder="palce of birth" ng-model="person.pob"> </div>
+                        <div class="col-sm-6 form-group">
+                            <input type="text" class="form-control" placeholder="Phone" ng-model="person.phone"> </div>
+                            <button type="button" class="btn btn-primary clr2 center-block submit-button" ng-click="alldata()" ng-disabled="myForm.$invalid">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8 away col-offset-2" ng-repeat="badge in badges">
+                <div class="row">
+                    <div class="col-sm-8 hgt2 clr col-sm-offset-2 ">
+                        <div class="row">
+                            <form name="myForm">
+                                
+                                <div class="col-sm-6 form-group">First Name :{{badge.fname}} </div>
+                                <div class="col-sm-6 form-group">Father Name : {{ badge.lname }} </div>
+                                <div class="col-sm-6 form-group">Email : {{badge.email}}</div>
+                                <div class="col-sm-6 form-group">Place of Birth : {{badge.pob}}</div>
+                                <div class="col-sm-6 form-group">Phone : {{badge.phone}} </div>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

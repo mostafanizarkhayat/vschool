@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+.bigClass {
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+}
+.red {
+    height: 200px;
+    width: 100%;
+    background: red;
+    border: 5px white solid;
+    float: left;
+}
+.blue {
+    height: 200px;
+    width: 50%;
+    background: blue;
+    
+    border: 5px white solid;
+    float: left;
+}
+.purple {
+    height: 200px;
+    width: 25%;
+    border: 5px white solid;
+    float: left;
+    background-color: fuchsia;
+}
+.green {
+    height: 200px;
+    width: 75%;
+    background: green; 
+    
+    border: 5px white solid;
+    float: left;
+}
+.orange {
+    height: 200px;
+    width: 25%;
+    background: orange;
+    border: 5px white solid;
+    float: left;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MyApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ugly Things</title>
+</head>
+
+<body ng-controller="MainController">
+  
+    <input type="text" ng-model="thing.Name">
+    <input type="text" ng-model="thing.Description">
+    <input type="text" ng-model="thing.img">
+    <button ng-click="addUglyness()">add</button>
+    <div ng-repeat="thing in ugly track by $index">
+        <h1> {{thing.Name}}  </h1>
+        <h2> {{thing.Description}}</h2>
+        <img ng-src="{{thing.img}}" alt=""> 
+        </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

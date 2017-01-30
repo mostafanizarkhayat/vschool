@@ -1,0 +1,41 @@
+.yellow {
+    background-color: yellow;
+}
+p {
+    color: red;
+    font-size: 6em;
+}
+body {
+    font-family: 'Indie Flower', cursive;
+}
+
+.container-fluid {
+    padding: 0px !important;
+}
+.red {
+    background-color: red;
+ 
+    text-align: center;
+    padding: 5px;
+}
+.p1 {
+    color: red;
+    font-size: 40px;
+    text-align: center;
+    padding-top:20px;
+}
+.p2 { 
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.newYellow {
+    background-color: yellow;
+ 
+}
+.icon {
+    height: 80px;
+    width: 80px;
+    padding: 10px;
+}

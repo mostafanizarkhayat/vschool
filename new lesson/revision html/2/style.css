@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+tr:nth-child(odd){
+    background-color: black;
+    color: white;
+    width: 20px;
+}
+table {
+    border: 2px;
+    border-radius: 5px;
+    border-spacing: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+body {
+    text-align: center;
+    font-size: 28px;
+}
+]  
+td, th {
+    padding: 4px 15px 4px 15px;
+    border: solid 1px purple;
+    border-left: 0px;
+    border-right: 0px;
+}
