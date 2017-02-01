@@ -1,0 +1,12 @@
+@media (max-width: 700px) {
+  .box {
+    width:100%;
+    background: cyan;
+    font-size: 20px;
+  }
+   
+ p{
+       font-size:5em;
+    }
+}  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
